@@ -3,13 +3,13 @@ body{
     background-position: top center;
     background-attachment: fixed;
     background-image: url(../images/bg.png);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 a{
     text-decoration: none !important;
 }
 .page{
     background: #fff;
-    height: 3333px;
     margin: 40px auto;
     padding: 30px 30px 0;
     border-radius: 15px;
@@ -72,7 +72,7 @@ a{
 .slider-btn{
     border: 2px solid #fff;
     color: #fff;
-    padding: 5px  20px 10px;
+    padding: 5px  20px 6px;
     font-size: 20px;
     background: transparent;
     transition: all 0.5s;
@@ -93,7 +93,7 @@ a{
     text-transform: capitalize;
 }
 .paragraph{
-    font-size: 14px;
+    font-size: 15px;
     color: #444;
 }
 .second-title{
@@ -122,6 +122,164 @@ a{
     -webkit-box-shadow: 0px 0px 5px 1px rgba(207,205,207,1);
     -moz-box-shadow: 0px 0px 5px 1px rgba(207,205,207,1);
     box-shadow: 0px 0px 5px 1px rgba(207,205,207,1);
+}
+.lets-start{
+    background: #0b74ce;
+    padding: 30px;
+}
+.lets-start h2{
+    color: #fff;
+    font-size: 30px;
+}
+.lets-start p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.img-banner img{
+    width: 100%;
+    height: auto;
+}
+.latest-news-section{
+    padding: 30px;
+    background: #0b74ce;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+.latest-news-section p{
+    color: #fff;
+    margin: 0 auto;
+}
+.latest-news-section .input-group{
+    margin: 0 auto;
+    width: 70%;
+}
+.latest-news-section button[type="submit"]{
+    background-color: #2d4253;
+    border-color: #fff;
+    color: #fff;
+    transition: all 0.5s;
+}
+.latest-news-section button[type="submit"]:hover{
+    background: #0b74ce;
+}
+.m--30{
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.in-comment {
+    display: inline-block;
+}
+
+.in-comment .rating-summary {
+    top: -5px;
+}
+
+.product-reviews-summary .rating-summary {
+    position: relative;
+}
+
+.rating-summary .rating-result {
+    margin-left: 5px;
+    width: 88px;
+    position: relative;
+}
+
+.rating-summary .rating-result:before {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    z-index: 1;
+    color: #c7c7c7;
+    font-size: 15px;
+    height: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    content: '\f005' '\f005' '\f005' '\f005' '\f005';
+    display: block;
+    font-style: normal;
+    speak: none;
+}
+.rate-slider .item{
+    text-align: center;
+}
+
+.rating-summary .rating-result > span {
+    display: block;
+    overflow: hidden;
+}
+
+.list-rating span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rating-summary .rating-result > span:before {
+    position: relative;
+    z-index: 2;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fea800;
+    font-size: 15px;
+    height: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    content: '\f005' '\f005' '\f005' '\f005' '\f005';
+    display: block;
+    font-style: normal;
+    speak: none;
+}
+.rate-slider-img{
+    width: 150px !important;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 15px;
+    box-shadow: 0 0 10px 0px rgb(11, 116, 206);
+    -moz-box-shadow: 0 0 10px 0px rgb(11, 116, 206);
+    -webkit-box-shadow: 0 0 10px 0px rgb(11, 116, 206);
+    -o-box-shadow: 0 0 10px 0px rgb(11, 116, 206);
+}
+.rate-slider h3{
+    font-size: 24px;
+}
+.rate-slider p{
+    text-align: justify;
+    font-size: 14px;
+}
+.rate-slider .item{
+    padding: 0 10px;
+}
+.footer-logo{
+    display: block;
+    width: 80%;
+    height: auto;
+    float: right;
+}
+footer{
+    background: #2d4253;
+    padding: 30px;
+}
+.footer-social a{
+    color: #fff;
+    font-size: 27px;
+}
+.quik-link-list a{
+    color: #fff;
+}
+.quik-link-list li{
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+}
+footer h3{
+    color: #dadada;
+    display: inline-block;
+    border-bottom: 2px solid #dadada;
+    font-size: 25px;
 }
 @media (max-width: 991px){
     .navbar-light .navbar-nav .nav-link{
