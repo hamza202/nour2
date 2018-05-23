@@ -196,36 +196,14 @@
 
 
         </section>
-        <section class="lets-start mt-5">
-            <h2>Start your first steps confidently</h2>
-            <p>Raise your service level and connect to another world that is not within your network, and will connect
-                you to your goal</p>
-        </section>
-        <section class="img-banner">
-            <img src="images/03.png" alt="">
-        </section>
-        <section class="latest-news-section">
+        <section class="team-slider mt-4 mb-4">
             <div class="row">
-                <div class="col-lg-6 d-flex align-self-center">
-                    <p>Subscribe to the newsletter</p>
-                </div>
-                <div class="col-lg-6">
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your E-mail"
-                                   aria-label="Recipient's username" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="submit">Subscribe</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col text-center">
+                    <h2 class="main-title">
+                        Our Rating
+                    </h2>
                 </div>
             </div>
-        </section>
-        <section class="img-banner m--30">
-            <img src="images/5.jpg" alt="">
-        </section>
-        <section class="team-slider mt-4 mb-4">
             <div class="row">
                 <div class="col">
                     <div class="owl-carousel .owl-theme rate-slider">
@@ -345,6 +323,36 @@
                 </div>
             </div>
         </section>
+        <section class="lets-start mt-5">
+            <h2>Start your first steps confidently</h2>
+            <p>Raise your service level and connect to another world that is not within your network, and will connect
+                you to your goal</p>
+        </section>
+        <section class="img-banner">
+            <img src="images/03.png" alt="">
+        </section>
+        <section class="latest-news-section">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-self-center">
+                    <p>Subscribe to the newsletter</p>
+                </div>
+                <div class="col-lg-6">
+                    <form action="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your E-mail"
+                                   aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="img-banner m--30">
+            <img src="images/5.jpg" alt="">
+        </section>
+
         <?php
         include('footer.php');
         ?>

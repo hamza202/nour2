@@ -268,13 +268,38 @@ footer{
     font-size: 27px;
 }
 .quik-link-list a{
+    position: relative;
     color: #fff;
+    transition: all 0.3s;
 }
-.quik-link-list li{
-    display: inline-block;
-    width: 49%;
-    margin: 0;
+.quik-link-list a::before{
+    position: absolute;
+    content: '\f0da';
+    right: -10px;
+    color: #0b74ce;
+    top: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
 }
+.quik-link-list a:hover{
+    padding-left: 5px;
+    color: #0b74ce;
+}
+a.face-link,
+a.twit-link,
+a.linken-link{
+    transition: all 0.3s;
+}
+a.face-link:hover{
+    color: #3b5999;
+}
+a.twit-link:hover{
+    color: #55acee;
+}
+a.linken-link:hover{
+    color: #0077B5;
+}
+
 footer h3{
     color: #dadada;
     display: inline-block;
