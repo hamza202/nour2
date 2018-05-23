@@ -196,7 +196,7 @@
 
 
         </section>
-        <section class="team-slider mt-4 mb-4">
+        <section class="team-slider mt-4 pt-4 pb-4 m--30">
             <div class="row">
                 <div class="col text-center">
                     <h2 class="main-title">
@@ -323,7 +323,7 @@
                 </div>
             </div>
         </section>
-        <section class="lets-start mt-5">
+        <section class="lets-start ">
             <h2>Start your first steps confidently</h2>
             <p>Raise your service level and connect to another world that is not within your network, and will connect
                 you to your goal</p>
