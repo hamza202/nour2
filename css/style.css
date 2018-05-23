@@ -348,6 +348,8 @@ footer h3{
 @media (max-width: 576px) {
     .navbar-brand{
         float: none;
+        width: 100%;
+        text-align: center;
         margin: 0 auto;
     }
     .lets-start h2{
