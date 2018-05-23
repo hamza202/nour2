@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<div class="container">
+<div class="container page-container">
     <div class="page">
         <?php
         include('header.php');
@@ -132,7 +132,12 @@
                         </div>
                     </div>
                     <div class="row ">
-                        <div class="col-lg-8 ">
+                        <div class="col-lg-4 pt-2 pt-lg-0">
+                            <div class="img-container text-center">
+                                <img class="img-fluid" src="images/e-commerce-payment-gateway-rqmnh.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt-2 pt-lg-0">
                             <h3 class="second-title mt-lg-5">Test Title</h3>
                             <p class="text-justify paragraph m-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Beatae consectetur doloremque
@@ -145,14 +150,17 @@
                             <a href="#" class="read-more d-inline-block">Read More <i
                                         class="fas fa-angle-double-right"></i></a>
                         </div>
-                        <div class="col-lg-4 mt-0 mt-md-2">
+
+                    </div>
+
+
+                    <div class="row ">
+                        <div class="col-lg-4 pt-2 pt-lg-0 order-lg-1">
                             <div class="img-container text-center">
                                 <img class="img-fluid" src="images/e-commerce-payment-gateway-rqmnh.png" alt="">
                             </div>
                         </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-lg-8 order-lg-1">
+                        <div class="col-lg-8 order-lg-0 pt-2 pt-lg-0">
                             <h3 class="second-title mt-lg-5 ">Test Title</h3>
                             <p class="text-justify paragraph m-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Beatae consectetur doloremque
@@ -165,14 +173,14 @@
                             <a href="#" class="read-more d-inline-block">Read More <i
                                         class="fas fa-angle-double-right"></i></a>
                         </div>
-                        <div class="col-lg-4 mt-0 mt-md-2 order-lg-0">
-                            <div class="img-container text-center">
-                                <img class="img-fluid" src="images/e-commerce-payment-gateway-rqmnh.png" alt="">
-                            </div>
-                        </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-8 ">
+                        <div class="col-lg-4 pt-2 pt-lg-0">
+                            <div class="img-container text-center">
+                                <img class="img-fluid" src="images/e-commerce-shop-rqmnh-com.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-8 pt-2 pt-lg-0">
                             <h3 class="second-title mt-lg-5">Test Title</h3>
                             <p class="text-justify paragraph m-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing
                                 elit. Beatae consectetur doloremque
@@ -185,11 +193,7 @@
                             <a href="#" class="read-more d-inline-block">Read More <i
                                         class="fas fa-angle-double-right"></i></a>
                         </div>
-                        <div class="col-lg-4 mt-0 mt-md-2">
-                            <div class="img-container text-center">
-                                <img class="img-fluid" src="images/e-commerce-shop-rqmnh-com.png" alt="">
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
