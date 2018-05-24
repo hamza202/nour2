@@ -13,7 +13,7 @@
                 <a class="nav-link" href="#">Home </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#">first page </a>
+                <a class="nav-link" href="about.php">about us </a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#"> second page</a>

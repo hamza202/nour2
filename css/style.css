@@ -312,6 +312,21 @@ footer h3{
     border-bottom: 2px solid #dadada;
     font-size: 25px;
 }
+.breadcrumb{
+    background: #2d4253;
+}
+.breadcrumb a{
+    color: #93cdff;
+}
+.breadcrumb-item.active{
+    color: #fff;
+}
+.list-number{
+    list-style: decimal;
+}
+.list-number p{
+    margin-bottom: 10px;
+}
 /*Start responsive*/
 @media (max-width: 991px){
     .navbar-light .navbar-nav .nav-link{
@@ -329,6 +344,7 @@ footer h3{
     .page{
         margin-top: 5px;
         padding: 10px 15px 0;
+        margin-bottom: 5px;
     }
     .main-slider{
         margin-left: -15px;
