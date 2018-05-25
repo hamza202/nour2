@@ -69,7 +69,7 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Message"  id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <textarea required class="form-control" placeholder="Message"  id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
                             </div>
                             <div class="col-lg-12 mb-5">
