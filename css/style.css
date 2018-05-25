@@ -92,13 +92,36 @@ a{
     padding-bottom: 6px;
     text-transform: capitalize;
 }
+.blue-color{
+    color: #0b74ce;
+}
+.dark-blue-color{
+    color: #2d4253;
+}
 .paragraph{
     font-size: 15px;
     color: #444;
 }
+.top-address .paragraph{
+    margin-bottom: 0;
+}
+.contact-form button{
+    background-color:#0b74ce;
+    transition: all 0.5s;
+}
+.contact-form button:hover{
+    background-color:transparent ;
+    color: #0b74ce;
+}
 .second-title{
     color: #0b74ce;
     text-transform: capitalize;
+}
+.contact-form .input-group-text i{
+    color: #fff;
+}
+.input-group-text{
+    background: #2d4253;
 }
 .read-more i{
     position: relative;
@@ -326,6 +349,9 @@ footer h3{
 }
 .list-number p{
     margin-bottom: 10px;
+}
+.bold{
+    font-weight: 600;
 }
 /*Start responsive*/
 @media (max-width: 991px){

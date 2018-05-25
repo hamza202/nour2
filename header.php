@@ -16,7 +16,7 @@
                 <a class="nav-link" href="about.php">about us </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link" href="#"> second page</a>
+                <a class="nav-link" href="contact.php"> contact us</a>
             </li>
             <li class="nav-item ">
                 <a class="nav-link" href="#"> Third page</a>
