@@ -15,3 +15,17 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+// $(document).on('ready', function() {
+//     $("#input-20").fileinput({
+//         browseClass: "btn btn-primary btn-block",
+//         showCaption: false,
+//         showRemove: false,
+//         showUpload: false
+//     });
+// });
+
+$("#input-20").fileinput({
+    defaultPreviewContent: '<img src="http://plugins.krajee.com/uploads/default_avatar_male.jpg" alt="Your Avatar"><h6 class="text-muted">Click to select</h6>',
+    browseOnZoneClick: true
+});

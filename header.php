@@ -41,7 +41,7 @@
         </ul>
         <ul  class="navbar-nav ">
             <li class="nav-item ">
-                <a class="nav-link add-project-btn" href="#"> Add your project</a>
+                <a class="nav-link add-project-btn" href="add-project.php"> Add your project</a>
             </li>
         </ul>
     </div>
