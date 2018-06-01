@@ -440,6 +440,14 @@ display: none;
     color: #989898;
     padding-right: 5px;
 }
+.project-add-comment .card-body{
+    border: 0;
+    padding: 0;
+}
+.project-card p span{
+    font-weight: 600;
+    color: #0b74ce;
+}
 /*Start responsive*/
 
 @media (min-width: 992px){

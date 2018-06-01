@@ -25,7 +25,24 @@
         <section class="project-details bg-gry">
             <div class="row">
                 <div class="col-lg-4 order-lg-1">
-                    asdasd
+                    <div class="project-card bg-white mb-4">
+                        <div class="container border-bottom">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 class="dark-blue-color pt-2 pb-1">project card</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container pt-2">
+                            <div class="row">
+                                <div class="col">
+                                    <p><span>name:</span> anything</p>
+                                    <p><span>name:</span> anything</p>
+                                    <p><span>name:</span> anything</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-8 order-lg-0">
                     <div class="project-details-card bg-white">
@@ -110,6 +127,38 @@
                             </div>
                         </div>
                         <!-- End comment  -->
+                    </div>
+
+                    <div class="project-add-comment bg-white mt-4">
+                        <div class="container border-bottom">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 class="dark-blue-color pt-2 pb-1">Add Reply Now</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container pt-2">
+                            <form action="#">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                                <p>
+                                <button class="btn btn-secondary btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    Attach files (optional)
+                                </button>
+                                </p>
+                                <div class="collapse" id="collapseExample">
+                                    <div class="card card-body">
+                                        <div class="file-loading">
+                                            <input id="input-20" type="file" multiple>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary mt-2 mb-4">Add Reply</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
