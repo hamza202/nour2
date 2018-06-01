@@ -26,6 +26,9 @@ $('.owl-carousel').owlCarousel({
 // });
 
 $("#input-20").fileinput({
-    defaultPreviewContent: '<img src="http://plugins.krajee.com/uploads/default_avatar_male.jpg" alt="Your Avatar"><h6 class="text-muted">Click to select</h6>',
-    browseOnZoneClick: true
+    defaultPreviewContent: '<img src="images/cloud-computing.svg" alt="Your Avatar"><h6 class="text-muted up-text">Drag files here</h6>' +
+    '<h6 class="text-muted">Or Click to select</h6>',
+    browseOnZoneClick: true,
+    initialPreviewAsData: true
+
 });

@@ -353,7 +353,51 @@ footer h3{
 .bold{
     font-weight: 600;
 }
+.close:not(:disabled):not(.disabled){
+    outline: 0;
+}
+.file-caption-main{
+display: none;
+}
+.file-drop-zone{
+    text-align: left;
+}
+.file-default-preview img{
+    width: 67px;
+    height: auto;
+    float: left;
+    padding-left: 9px;
+    margin-right: 10px;
+}
+.file-preview .fileinput-remove{
+    top: 5px;
+    right: 5px;
+}
+.up-text{
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+.small-f{
+    display: block;
+    font-size: 13px;
+    color: #878585;
+}
+.project-form label{
+    margin-bottom: 0.3rem;
+}
+.project-form{
+    padding-bottom: 50px;
+}
 /*Start responsive*/
+
+@media (min-width: 992px){
+    .mt-19{
+        margin-top: 19px;
+    }
+    .mt-38{
+        margin-top: 38px;
+    }
+}
 @media (max-width: 991px){
     .navbar-light .navbar-nav .nav-link{
         text-align: center;
