@@ -54,8 +54,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="414" column="24" selection-start-line="414" selection-start-column="24" selection-end-line="414" selection-end-column="24" />
+            <state relative-caret-position="337">
+              <caret line="415" column="66" selection-start-line="415" selection-start-column="66" selection-end-line="415" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -112,6 +112,7 @@
       <find>fileinput</find>
       <find>email</find>
       <find>file</find>
+      <find>.project-details</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,12 +211,12 @@
       <workItem from="1527323216351" duration="10000" />
       <workItem from="1527722838381" duration="676000" />
       <workItem from="1527856252437" duration="9345000" />
-      <workItem from="1527880436801" duration="10425000" />
+      <workItem from="1527880436801" duration="10626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61771000" />
+    <option name="totallyTimeSpent" value="61972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -608,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="414" column="24" selection-start-line="414" selection-start-column="24" selection-end-line="414" selection-end-column="24" />
+        <state relative-caret-position="337">
+          <caret line="415" column="66" selection-start-line="415" selection-start-column="66" selection-end-line="415" selection-end-column="66" />
         </state>
       </provider>
     </entry>
