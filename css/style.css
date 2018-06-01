@@ -388,6 +388,58 @@ display: none;
 .project-form{
     padding-bottom: 50px;
 }
+.about-us{
+    padding: 0 10px;
+    background: #f4f4f4;
+}
+.project-content h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: #0b74ce;
+}
+.project-content p{
+
+    color: #1b6098;
+    font-size: 15px;
+}
+.project-section{
+    -webkit-box-shadow: 0px 0px 24px 3px rgba(11,116,206,0.3);
+    -moz-box-shadow: 0px 0px 24px 3px rgba(11,116,206,0.3);
+    box-shadow: 0px 0px 24px 3px rgba(11,116,206,0.3);
+}
+.bg-gry{
+    background: #f0f0f0;
+}
+.project-details{
+    margin: -16px -30px 0;
+    padding: 50px 30px;
+}
+.project-comment-card img.media-img{
+    width: 42px;
+    height: 42px;
+    max-width: none;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.project-comment-card .media h5{
+    font-size: 15px;
+    color: #0b74ce;
+}
+.project-comment-card .media p{
+    font-size: 15px;
+    color: #aaa;
+}
+.project-comment-card .media p i{
+    color: #989898;
+}
+.comment-desc{
+    font-size: 16px;
+    padding-top: 10px;
+}
+.file-in-comment i{
+    color: #989898;
+    padding-right: 5px;
+}
 /*Start responsive*/
 
 @media (min-width: 992px){

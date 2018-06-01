@@ -22,7 +22,7 @@
             </nav>
         </section>
 
-        <section class="about-us">
+        <section class="about-us mb-3 project-section">
             <div class="row">
                 <div class="col">
                     <h3 class="second-title mt-4">
@@ -41,18 +41,18 @@
                                     <label for="pro-name">Type the title of the service
                                         <span class="small-f">Example: Translation of an electronic contract</span>
                                     </label>
-                                    <input type="email" class="form-control" placeholder="" id="pro-name" >
+                                    <input type="text" class="form-control" required placeholder="" id="pro-name" >
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group mt-19">
                                     <label for="exampleFormControlSelect1">Document / video language</label>
-                                    <select class="form-control" id="exampleFormControlSelect1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                    <select class="form-control" id="exampleFormControlSelect1" required>
+                                        <option value="">1</option>
+                                        <option value="1">2</option>
+                                        <option value="2">3</option>
+                                        <option value="3">4</option>
+                                        <option value="4">5</option>
                                     </select>
                                 </div>
                             </div>
@@ -62,13 +62,13 @@
 
                                 <div class="form-group">
                                     <label for="pro-l">Languages you wish to translate</label>
-                                    <input type="email" class="form-control" placeholder="" id="pro-l" >
+                                    <input type="text" required class="form-control" placeholder="" id="pro-l" >
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="d-c">Document / video content</label>
-                                    <select class="form-control" id="d-c">
+                                    <select class="form-control" required id="d-c">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -92,7 +92,7 @@
                                     <label for="d-t">Delivery time
                                     <span class="small-f">translation time will be calculated after payment and viewing of document pages</span>
                                     </label>
-                                    <select class="form-control" id="d-t">
+                                    <select required class="form-control" id="d-t">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -104,7 +104,7 @@
                             <div class="col-md-6">
                                 <div class="form-group mt-38">
                                     <label for="p-m">Payment method</label>
-                                    <select class="form-control" id="p-m">
+                                    <select required class="form-control" id="p-m">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -117,7 +117,7 @@
                         <div class="row mb-3">
                             <div class="col">
                                 <div class="file-loading">
-                                    <input id="input-20" type="file" multiple>
+                                    <input required id="input-20" type="file" multiple>
                                 </div>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
 
                                 </div>
                                 <div class="form-check mb-2">
-                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <input class="form-check-input" required type="checkbox" value="" id="defaultCheck1">
                                     <label class="form-check-label" for="defaultCheck1">
                                         I agree to the <a href="#">terms of use</a>
                                     </label>
@@ -143,7 +143,22 @@
                     </form>
                 </div>
                 <div class="col-md-4">
-
+                    <div class="project-content">
+                        <h4>How to use the translation request form?</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut corporis cum elit. Accusamus at aut corpori </p>
+                        <h4>Languages ​​you wish to translate</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut corporis cum elit. Accusamus at aut corpori </p>
+                        <h4>Document / video content</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut corporis cum elit.</p>
+                        <h4>Notes to the translator</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut corporis cum elit.</p>
+                        <h4>Delivery time</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at aut corporis cum elit. Accusamus at aut corpori ipsum dolor sit amet, consectetur adipisicing </p>
+                        <h4>Payment method</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                        <h4>Add files</h4>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
                 </div>
             </div>
 
