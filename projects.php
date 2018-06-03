@@ -22,7 +22,7 @@
             </nav>
         </section>
 
-        <section class="about-us">
+        <section class="about-us projects">
             <div class="border-bottom ">
                 <div class="row ">
 

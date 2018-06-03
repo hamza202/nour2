@@ -536,3 +536,10 @@ p.project-sub-details{
     padding: 3px 7px;
     border-radius: 4px;
 }
+.projects{
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.projects .border-bottom:last-child{
+    border: 0 !important;   
+}
