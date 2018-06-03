@@ -523,3 +523,16 @@ display: none;
         display: none;
     }
 }
+/*new projects-page*/
+p.project-sub-details{
+    color: #848484;
+}
+.project-sub-details span.project-comment{
+
+    padding-left: 10px;
+}
+.project-case p{
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
