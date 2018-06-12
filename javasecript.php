@@ -2,6 +2,7 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="js/parsley.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.4.5/js/plugins/piexif.min.js" type="text/javascript"></script>-->
 <!--<!-- sortable.min.js is only needed if you wish to sort / rearrange files in initial preview.-->
 <!--    This must be loaded before fileinput.min.js -->-->

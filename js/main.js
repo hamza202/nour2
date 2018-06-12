@@ -29,6 +29,7 @@ $("#input-20").fileinput({
     defaultPreviewContent: '<img src="images/cloud-computing.svg" alt="Your Avatar"><h6 class="text-muted up-text">Drag files here</h6>' +
     '<h6 class="text-muted">Or Click to select</h6>',
     browseOnZoneClick: true,
-    initialPreviewAsData: true
+    initialPreviewAsData: true,
+    required: true,
 
 });

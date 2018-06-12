@@ -8,4 +8,5 @@
 <link rel="stylesheet" href="css/owl.carousel.css">
 <link rel="stylesheet" href="css/owl.theme.default.css">
 <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/parsley.min.css">
 <link rel="stylesheet" href="css/style.css">

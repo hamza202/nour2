@@ -33,7 +33,7 @@
 
             <div class="row">
                 <div class="col-md-8">
-                    <form class="project-form" action="">
+                    <form class="project-form" action="#" name="#" data-parsley-validate>
                         <div class="row">
                             <div class="col-md-6">
 
@@ -41,7 +41,7 @@
                                     <label for="pro-name">Type the title of the service
                                         <span class="small-f">Example: Translation of an electronic contract</span>
                                     </label>
-                                    <input type="text" class="form-control" required placeholder="" id="pro-name" >
+                                    <input data-parsley-required="true" type="text" class="form-control"  placeholder="" id="pro-name" >
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -117,7 +117,7 @@
                         <div class="row mb-3">
                             <div class="col">
                                 <div class="file-loading">
-                                    <input required id="input-20" type="file" multiple>
+                                    <input data-parsley-required="true" id="input-20" type="file" multiple>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                         I agree to the <a href="#">terms of use</a>
                                     </label>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" id="form-submit" class="btn btn-primary">Submit</button>
                             </div>
                         </div>
                     </form>
